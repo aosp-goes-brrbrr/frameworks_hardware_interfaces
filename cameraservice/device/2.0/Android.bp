@@ -7,6 +7,9 @@ package {
 hidl_interface {
     name: "android.frameworks.cameraservice.device@2.0",
     root: "android.frameworks",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "types.hal",
         "ICameraDeviceCallback.hal",

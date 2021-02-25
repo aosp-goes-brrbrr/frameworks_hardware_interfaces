@@ -7,6 +7,9 @@ package {
 hidl_interface {
     name: "android.frameworks.schedulerservice@1.0",
     root: "android.frameworks",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "ISchedulingPolicyService.hal",
     ],
