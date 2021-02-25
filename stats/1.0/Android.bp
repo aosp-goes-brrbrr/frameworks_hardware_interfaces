@@ -7,6 +7,9 @@ package {
 hidl_interface {
     name: "android.frameworks.stats@1.0",
     root: "android.frameworks",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "types.hal",
         "IStats.hal",

@@ -8,6 +8,9 @@ hidl_interface {
     name: "android.frameworks.vr.composer@2.0",
     root: "android.frameworks",
     system_ext_specific: true,
+    vndk: {
+        enabled: false,
+    },
     srcs: [
         "IVrComposerClient.hal",
     ],
